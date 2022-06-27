@@ -34,7 +34,7 @@ const Navbar = () => {
               <Link to="/">Home</Link>
             </li>
             <li tabIndex="0">
-              <a className="justify-between">
+              <span className="justify-between">
                 Categories
                 <svg
                   className="fill-current"
@@ -45,7 +45,7 @@ const Navbar = () => {
                 >
                   <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
                 </svg>
-              </a>
+              </span>
               <ul className="p-2 bg-slate-800 shadow-xl">
                 <li>
                   <Link to="/">Submenu 1</Link>
