@@ -6,7 +6,7 @@ const Navbar = () => {
   const user = localStorage.getItem("user");
 
   return (
-    <div className="navbar bg-slate-800 rounded-md my-5 shadow-xl flex justify-between">
+    <div className="navbar bg-slate-800 rounded-xl my-5 shadow-xl flex justify-between">
       {/* small Device */}
       <div className="dropdown lg:hidden">
         <label tabIndex="0" className="btn btn-ghost lg:hidden">

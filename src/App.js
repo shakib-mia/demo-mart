@@ -5,7 +5,7 @@ import Home from "./components/Pages/Home";
 
 function App() {
   return (
-    <div className="App w-10/12 mx-auto">
+    <div className="mx-5">
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
