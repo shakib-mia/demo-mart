@@ -6,7 +6,7 @@ const Navbar = () => {
   const user = localStorage.getItem("user");
 
   return (
-    <div className="navbar bg-slate-800 rounded-xl my-5 shadow-xl flex justify-between">
+    <div className="navbar bg-slate-800 rounded-xl mt-5 shadow-xl flex justify-between sticky top-5">
       {/* small Device */}
       <div className="dropdown lg:hidden">
         <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -27,7 +27,7 @@ const Navbar = () => {
         </label>
         <ul
           tabIndex="0"
-          className="menu menu-compact dropdown-content mt-3 p-2 bg-slate-800 rounded-box w-52 shadow-xl"
+          className="menu menu-compact dropdown-content mt-3 p-2 bg-slate-800 rounded-xl w-52 shadow-xl"
         >
           <li>
             <Link to="/">Home</Link>
@@ -47,10 +47,10 @@ const Navbar = () => {
             </span>
             <ul className="p-2 bg-slate-800 shadow-xl rounded-xl">
               <li>
-                <Link to="/">Submenu 1</Link>
+                <Link to="/">Phone</Link>
               </li>
               <li>
-                <Link to="/">Submenu 2</Link>
+                <Link to="/">Phone Accessories</Link>
               </li>
             </ul>
           </li>
